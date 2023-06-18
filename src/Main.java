@@ -141,7 +141,7 @@ public class Main {
         });
     }
     public static void main (String[] args){
-        JFrame f = new JFrame("Reniel's Calculator");
+        JFrame f = new JFrame("Calculator");
         f.setContentPane(new Main().Calculator);
         f.setDefaultCloseOperation(f.EXIT_ON_CLOSE);
         f.setSize(400, 300);
